@@ -1,5 +1,5 @@
 # GiveawayBoat
-Discord giveaway bot
+Discord giveaway bot using **[discord-giveaways](https://npmjs.com/discord-giveaways)** package.
 
 # Command Prefix
 `g?` or `G?` or `@GiveawayBoat`
