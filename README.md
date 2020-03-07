@@ -1,6 +1,9 @@
 # GiveawayBoat
 Discord giveaway bot using **[discord-giveaways](https://npmjs.com/discord-giveaways)** package.
 
+# Invite
+[Click Me](https://discordapp.com/api/oauth2/authorize?client_id=685859869638918189&permissions=8&scope=bot "GiveawayBoat Invite")
+
 # Command Prefix
 `g?` or `G?` or `@GiveawayBoat`
 
