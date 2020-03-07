@@ -1,0 +1,35 @@
+{
+  "name": "giveawayboat",
+  "version": "1.0.0",
+  "description": "Discord giveaway bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INEX07/Giveawayboat.git"
+  },
+  "keywords": [
+    "giveaway",
+    "discord",
+    "discord.js-giveaway",
+    "giveawaybot",
+    "discord-giveaway"
+  ],
+  "author": "INEX07",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/INEX07/Giveawayboat/issues"
+  },
+  "homepage": "https://github.com/INEX07/Giveawayboat#readme",
+  "dependencies": {
+    "discord-giveaways": "^3.2.3",
+    "discord.js": "^12.0.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "num-parse": "^1.0.1"
+  }
+}
