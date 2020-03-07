@@ -23,3 +23,7 @@ Discord giveaway bot
 
 # Help Menu
 ![image](https://i.imgur.com/8UH4KQd.png?1)
+![image](https://i.imgur.com/6hdq8Sw.png)
+
+# Giveaway
+![image](https://i.imgur.com/q9hLwJ4.png)
