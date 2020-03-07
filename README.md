@@ -1,0 +1,25 @@
+# GiveawayBoat
+Discord giveaway bot
+
+# Command Prefix
+`g?` or `G?` or `@GiveawayBoat`
+
+# Commands
+## Developer
+- eval : Evaluates arbitrary JavaScript [ EG: g?eval <JavaScript_Code> ]
+- exec : Executes a command on terminal [ EG: g?exec <command> ]
+
+## General
+- ping : Get bot latency [ EG: g?ping ]
+- uptime : Get bot uptime [ EG: g?uptime ]
+- help : Get help menu  [ EG: g?help | g?help <command> ]
+
+## Giveaways
+- create : create giveaway [ EG: g?create 1d 1w Discord Nitro ]
+- delete : Delete giveaway [ EG: g?delete <giveaway_id> ]
+- edit : Edit giveaway [ EG: g?edit <giveaway_id> 2d 3w Discord Nitro Classic ]
+- end : End giveaway [ EG: g?end <giveaway_id> ]
+- reroll : Re-roll giveaway [ EG: g?reroll <giveaway_id> ]
+
+# Help Menu
+![image](https://i.imgur.com/8UH4KQd.png?1)
