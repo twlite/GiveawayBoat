@@ -1,7 +1,7 @@
 require("dotenv").config();
 const Client = require("./Base/GiveawayBoat");
 const client = new Client({
-    disableEveryone: true
+    disableMentions: "everyone"
 });
 const fs = require("fs");
 
