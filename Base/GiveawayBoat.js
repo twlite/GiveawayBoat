@@ -33,7 +33,7 @@ class GiveawayBoat extends Client {
             .replace(/@/g, "@" + String.fromCharCode(8203))
             .replace(
                 this.token,
-                "NjMwMDM0NDk4NTc0MzUyMzg1.XaIn1w.kUD_t-sUX7FgGBwB-BBdQ0L0AJ0"
+                "TOKEN"
             );
 
         return text;
