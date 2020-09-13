@@ -1,14 +1,14 @@
 {
   "name": "giveawayboat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Discord giveaway bot",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/INEX07/Giveawayboat.git"
+    "url": "git+https://github.com/Snowflake107/Giveawayboat.git"
   },
   "keywords": [
     "giveaway",
@@ -17,12 +17,12 @@
     "giveawaybot",
     "discord-giveaway"
   ],
-  "author": "INEX07",
+  "author": "Snowflake107",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/INEX07/Giveawayboat/issues"
+    "url": "https://github.com/Snowflake107/Giveawayboat/issues"
   },
-  "homepage": "https://github.com/INEX07/Giveawayboat#readme",
+  "homepage": "https://github.com/Snowflake107/Giveawayboat#readme",
   "dependencies": {
     "discord-giveaways": "^3.2.3",
     "discord.js": "^12.0.1",
