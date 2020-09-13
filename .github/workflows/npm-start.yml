@@ -1,20 +1,22 @@
-name: giveawayboat
+name: npm-start
 on:
   push:
     branches:
       - master
 jobs:
-  giveawayboat:
-    name: giveawayboat
+  npm-publish:
+    name: npm-start
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Set up Node.js
+      uses: actions/setup-node@master
       with:
         node-version: '12'
         check-latest: true
-        - run: npm install
-        - run: npm start
+    - name: Run
+    - run: npm install && npm start
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TOKEN: ${{ secrets.DISCORD_TOKEN }}
