@@ -1,22 +1,26 @@
-name: npm-start
-on:
-  push:
-    branches:
-      - master
+name: Node.js CI
+
+on: [push]
+
 jobs:
-  npm-publish:
-    name: npm-start
+  build:
+
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
-    - name: Set up Node.js
-      uses: actions/setup-node@master
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
       with:
-        node-version: '12'
-        check-latest: true
-    - name: Run
-    - run: npm install && npm start
+        node-version: ${{ matrix.node-version }}
+    - run: npm install
+    - run: npm run build --if-present
+    - run: npm start
       env:
+        CI: true
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TOKEN: ${{ secrets.DISCORD_TOKEN }}
